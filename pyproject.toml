@@ -1,0 +1,18 @@
+[project]
+name = "exllama_api_client"
+description = "API client for the exllama API"
+version = "0.1.0"
+
+dependencies = [
+    "requests"
+]
+
+[tool.setuptools]
+py-modules = []
+
+[project.optional-dependencies]
+dev = [
+    "tox",
+    "pre-commit",
+    "bump2version"
+]
